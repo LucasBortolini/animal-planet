@@ -1,0 +1,197 @@
+// animação tomando água scss
+section.second {
+  background-image: url('images/banner-index2.jpg');
+  background-size: cover;
+  height: 100%;
+
+  @media (min-width: 1079px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    text-shadow: 0.4px 2px #000;
+  }
+
+  .text-second {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 118px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 383px) {
+      font-size: 15px;
+      padding-top: 126px;
+    }
+
+    @media (min-width: 413px) {
+      font-size: 16px;
+      padding-top: 139px;
+    }
+
+    @media (min-width: 427px) {
+      font-size: 17px;
+      padding-top: 142px;
+    }
+
+    @media (min-width: 959px) {
+      font-size: 13px;
+      padding-top: 110px;
+      padding-bottom: 8px;
+    }
+
+    @media (min-width: 1079px) {
+      font-size: 13px;
+      padding-bottom: 8px;
+      padding-top: 115px;
+    }
+  }
+}
+
+.css-typing-second p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing-second p:nth-child(1) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type .2s steps(40, end);
+  animation: type .2s steps(40, end);
+  -webkit-animation-delay: .8s;
+  animation-delay: .8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    width: 21em;
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+  }
+}
+
+.css-typing-second p:nth-child(2) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type2 .2s steps(40, end);
+  animation: type2 .2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    width: 21em;
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+  }
+}
+
+.css-typing-second p:nth-child(3) {
+  width: 22em;
+  opacity: 0;
+  -webkit-animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    width: 19em;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
