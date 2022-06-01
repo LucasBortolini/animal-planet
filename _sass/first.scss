@@ -9,40 +9,42 @@ section.first {
   }
 
   p {
-    text-shadow: 0.4px 1px #FFF;
+    background-color: #5AFF2E;
+    text-shadow: 0.4px 2px #fff;
+    padding-left: 16px;
   }
 
   .text-first {
-    color: #000;
+    color: #0C3900;
     font-weight: bold;
     font-size: 14px;
-    text-align: right;
-    padding-top: 14px;
-    padding-bottom: 93px;
+    text-align: left;
+    padding-top: 101px;
+    padding-bottom: 16px;
 
     @media (min-width: 383px) {
+      padding-top: 108px;
       font-size: 15px;
-      padding-bottom: 110px;
     }
 
     @media (min-width: 413px) {
       font-size: 16px;
-      padding-bottom: 121px;
+      padding-top: 119px;
     }
 
     @media (min-width: 427px) {
       font-size: 17px;
-      padding-bottom: 122px;
+      padding-top: 120px;
     }
 
     @media (min-width: 959px) {
       font-size: 13px;
-      padding-bottom: 0;
-      padding-top: 4px;
+      padding-top: 84px;
     }
 
     @media (min-width: 1079px) {
       font-size: 13px;
+      padding-top: 87px;
     }
   }
 }
@@ -52,84 +54,67 @@ section.first {
   overflow: hidden;
 }
 .css-typing-first p:nth-child(1) {
-  width: 24.8em;
+  width: 17.5em;
+  opacity: 0;
   -webkit-animation: type .2s steps(40, end);
   animation: type .2s steps(40, end);
+  -webkit-animation-delay: 1s;
+    animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    width: 23.2em;
     opacity: 0;
     -webkit-animation-delay: 1.2s;
     animation-delay: 1.2s;
   }
-
-  @media (min-width: 1079px) {
-    width: 24em;
-  }
 }
 
 .css-typing-first p:nth-child(2) {
-  width: 24.8em;
+  width: 17.5em;
   opacity: 0;
   -webkit-animation: type2 .2s steps(40, end);
   animation: type2 .2s steps(40, end);
-  -webkit-animation-delay: .2s;
-  animation-delay: .2s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    width: 23.2em;
     -webkit-animation-delay: 1.4s;
     animation-delay: 1.4s;
-  }
-
-  @media (min-width: 1079px) {
-    width: 24em;
   }
 }
 
 .css-typing-first p:nth-child(3) {
-  width: 24.8em;
+  width: 17.5em;
   opacity: 0;
   -webkit-animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
   animation: type3 .2s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: .4s;
-  animation-delay: .4s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    width: 23.2em;
     -webkit-animation-delay: 1.6s;
     animation-delay: 1.6s;
-  }
-
-  @media (min-width: 1079px) {
-    width: 24em;
   }
 }
 
 .css-typing-first p:nth-child(4) {
-  width: 24.8em;
+  width: 17.5em;
   opacity: 0;
   -webkit-animation: type4 .2s steps(40, end), blink .5s step-end infinite alternate;
   animation: type4 .2s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: .6s;
-  animation-delay: .6s;
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    width: 23.2em;
     -webkit-animation-delay: 1.8s;
     animation-delay: 1.8s;
-  }
-
-  @media (min-width: 1079px) {
-    width: 24em;
   }
 }
 
