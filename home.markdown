@@ -5,6 +5,7 @@ permalink: /home
 sections:
   - banner.html
   - cards.md
+  - blog.html
   - fourth.html
   - sixth.html
 ---
