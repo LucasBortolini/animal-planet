@@ -1,3 +1,1 @@
-# sports
-# football
 # animal-planet
