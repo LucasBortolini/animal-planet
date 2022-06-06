@@ -1,0 +1,19 @@
+.icons-absolut{ 
+  position: fixed; 
+  bottom: 15%;
+  right: 50px;
+
+  img {
+    padding: 4px 0;
+    width: 45px;
+    cursor: pointer;
+  }
+
+  .hover-icon {
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    } 
+  }
+}
