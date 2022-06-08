@@ -1,8 +1,21 @@
-<div class="icons-absolut d-flex flex-column">
-  <a class="notification-icon">
-    <img src="{{ 'assets/images/notification.png'  | relative_url }}" class="hover-icon">
-  </a>
-  <a class="email-icon">
-    <img src="{{ 'assets/images/email.png'  | relative_url }}" class="hover-icon">
-  </a>
-</div>
+<button class="floating-container">
+  <div class="floating-button">+</div>
+  <div class="element-container">
+    <span class="float-element tooltip-left">
+    </span>
+    <span class="float-element">
+      <i class="material-icons">
+        <a class="notification-icon">
+          <img src="{{ 'assets/images/notification.png' | relative_url }}" class="hover-icon">
+        </a>
+      </i>
+    </span>
+    <span class="float-element">
+      <i class="material-icons">
+        <a class="email-icon">
+          <img src="{{ 'assets/images/email.png' | relative_url }}" class="hover-icon">
+        </a>
+      </i>
+    </span>
+  </div>
+</button>
