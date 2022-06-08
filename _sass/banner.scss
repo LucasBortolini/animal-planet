@@ -13,7 +13,13 @@
     width: 676px;
     padding-top: 10px;
     padding-bottom: 10px;
-	}
+  }
+
+  img {
+    @media (min-width: 1279px) {
+      padding-right: 2.3px;
+    }
+  }
 }
 
 .line-1{
