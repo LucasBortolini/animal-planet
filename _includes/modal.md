@@ -6,6 +6,7 @@
     {%- include e-mail.md -%}
     {%- include notification.md -%}
     {%- include phone.md -%}
+    {%- include participate.md -%}
     {%- include indicate.md -%}
     {%- include who-we-are.md -%}
     {%- include contact_us.md -%}

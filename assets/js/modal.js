@@ -91,6 +91,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
       showModal("#modal-indicate"); 
     });
   }
+
+  // PARTICIPATE
+
+  const sectionParticipate = document.querySelector("#participate");
+
+  if (sectionParticipate) {
+    sectionParticipate.addEventListener("click", function() {
+      showModal("#modal-participate"); 
+    });
+  }
   
   // FOOTER
   const whoWeAre = document.querySelector("#who-we-are");
