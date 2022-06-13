@@ -52,6 +52,11 @@
     }
   }
 
+  span {
+    color: gray;
+    font-size: 15px;
+  }
+
   .hover-post {
     cursor: pointer;
     text-decoration: none;
@@ -69,11 +74,6 @@
         }
       }
     }
-  }
-
-  span {
-    color: gray;
-    font-size: 15px;
   }
 
   .input-group input.form-control.btn {
