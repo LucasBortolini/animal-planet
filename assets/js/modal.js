@@ -81,6 +81,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
   }
   
+  //// CURIOSITIES
+
+  const sectionCuriosities = document.querySelector("#curiosities");
+
+  if (sectionCuriosities) {
+    sectionCuriosities.addEventListener("click", function() {
+      showModal("#modal-curiosities"); 
+    });
+  }
+
+  const buttonCuriositiesSubmit = document.querySelector("#curiosities-submit");
+
+  if (buttonCuriositiesSubmit) {
+    buttonCuriositiesSubmit.addEventListener("click", function(event) {
+      event.preventDefault();
+      // enviar infos pro back!!
+      showModal("#modal-curiosities-success"); 
+    });
+  }
+
   //FOURTH
 
   //// indique
@@ -118,6 +138,42 @@ document.addEventListener("DOMContentLoaded", function(event) {
       showModal("#modal-contact-us"); 
     });
   }
+
+  // GREGO
+
+  const cancelSuccess = document.querySelector("#cancel-success");
+
+  if (cancelSuccess) {
+    cancelSuccess.addEventListener("click", function() {
+      showModal("#modal-cancel-success"); 
+    });
+  }
+
+  const contactUsError = document.querySelector("#contact-us-error");
+
+  if (contactUsError) {
+    contactUsError.addEventListener("click", function() {
+      showModal("#modal-contact-us-error"); 
+    });
+  }
+
+  const contactUsSuccess = document.querySelector("#contact-us-success");
+
+  if (contactUsSuccess) {
+    contactUsSuccess.addEventListener("click", function() {
+      showModal("#modal-contact-us-success"); 
+    });
+  }
+
+  const reportConfirm = document.querySelector("#report-confirm");
+
+  if (reportConfirm) {
+    reportConfirm.addEventListener("click", function() {
+      showModal("#modal-report-confirm"); 
+    });
+  }
+
+  // END GREGO
 
   const cancel = document.querySelector("#cancel");
 
