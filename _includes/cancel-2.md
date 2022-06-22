@@ -1,10 +1,5 @@
----
-layout: modal
-title: Descadastrar
-permalink: /cancelado.html
----
-
-<div id="modal-cancel-success">
+<!-- title: Descadastrar -->
+<div id="modal-cancel-success" class="d-none myModal-content">
   <p class="text-center">
     Pronto, você foi descadastrado com sucesso!
     <br>

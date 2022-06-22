@@ -1,11 +1,5 @@
----
-layout: modal
-title: Reportar Erro
-text: Obrigado por colaborar com o aperfeiçoamento do sistema!
-image: /assets/images/modal-gota.png
-permalink: /erro-reportado.html
----
-
-<div id="modal-report-confirm">
+<!-- title: Reportar Erro -->
+<!-- text: Obrigado por colaborar com o aperfeiçoamento do sistema! -->
+<div id="modal-report-confirm" class="d-none myModal-content">
   <a href="{{ '/reportar-erro.html' | relative_url }}" class="bg">Voltar</a>
 </div>

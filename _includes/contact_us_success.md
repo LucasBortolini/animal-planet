@@ -1,11 +1,5 @@
----
-layout: modal
-title: Fale Conosco
-image: /assets/images/modal-gota.png
-permalink: /fale-conosco-sucesso.html
----
-
-<div id="modal-contact-us-success">
+<!-- title: Fale Conosco -->
+<div id="modal-contact-us-success" class="d-none myModal-content">
   <p class="text-center text-success">
     Mensagem enviado com sucesso!
     <br>

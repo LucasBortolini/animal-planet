@@ -3,7 +3,7 @@
   <p class="text-center mb-4">
     Se você encontrou algum problema em nosso sistema, por favor nos comunique preenchendo os campos abaixo
   </p>
-  <form action="{{ '/erro-reportado.html' | relative_url }}" class="px-md-5">
+  <form method="POST" action="" class="px-md-5">
     <div class="form px-md-3">
       <div class="row">
         <div class="input-group col-6 mb-3 px-0">

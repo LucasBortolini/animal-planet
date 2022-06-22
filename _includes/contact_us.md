@@ -4,7 +4,7 @@
     Loren Ipsun fale conosco texto exemplo
   </p>
   <div class="mt-3 px-md-5">
-    <form id="contact-us" method="POST" action="{{ '/fale-conosco-erro.html' | relative_url }}" class="px-md-4">
+    <form id="contact-us" method="POST" action="" class="px-md-4">
       <div class="form">
         <div class="row">
           <div class="input-group col-6 mb-3 px-0">
