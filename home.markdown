@@ -7,6 +7,7 @@ sections:
   - cards.md
   - blog.html
   - fourth.html
+  - faq.html
   - sixth.html
 ---
 

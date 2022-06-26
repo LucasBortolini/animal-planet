@@ -6,4 +6,5 @@ layout: default
 {%- include cards.md -%}
 {%- include blog.html -%}
 {%- include fourth.html -%}
+{%- include faq.html -%}
 {%- include sixth.html -%}
