@@ -83,11 +83,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
   
   //// CURIOSITIES
 
-  const sectionCuriosities = document.querySelector("#curiosities");
-
+  const sectionCuriosities = document.querySelectorAll(".curiosities-icon");
+  console.log(sectionCuriosities);
   if (sectionCuriosities) {
-    sectionCuriosities.addEventListener("click", function() {
-      showModal("#modal-curiosities"); 
+    sectionCuriosities.forEach(sectionCuriosities => {
+      sectionCuriosities.addEventListener("click", function() {
+        showModal("#modal-curiosities"); 
+      });
     });
   }
 
