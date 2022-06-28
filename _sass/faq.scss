@@ -1,10 +1,22 @@
 // faq scss
 .faq {
-  border-bottom: solid 3px #3EAECE;
+  border-top: solid 3px #6225B5;
 
-  h1{
-    font-size: 24px;
-    color: #57C5FE;
+  h3 {
+    color: #6225B5;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+
+    &::after {
+      content: '';
+      width: 60px;
+      height: 2px;
+      background: #6225B5;
+      display: block;
+      margin: 7px 0;
+    }
   }
 
   .card {
