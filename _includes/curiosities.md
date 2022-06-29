@@ -7,6 +7,9 @@
     <form id="curiosities-form" class="px-md-4">
       <div class="form">
         <div class="row">
+          <div class="input-group col-12 pb-2">
+            <input class="form-control" type="url" placeholder="Apelido">
+          </div>
           <div class="input-group col-4 mb-3 px-0">
             <input type="text" class="col form-control shadow-none ml-3 mr-2" required placeholder="Nome" name="name"/>
           </div>
