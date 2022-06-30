@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /receita
+permalink: /post
 ---
 
 <section class="content-layout">
