@@ -20,7 +20,7 @@ section.myModal-wrapper {
     cursor: pointer;
 
     &:hover {
-      color: #FFCF00;
+      color: #000000;
     }
   }
 
@@ -249,14 +249,14 @@ section.myModal-wrapper {
 
   .modal-icon-email {
     z-index: -1; 
-    background-color: #D50808;
+    background-color: #E4D12F;
     margin-left: -18px;
     border-radius: 10px;
   }
 
   .modal-icon-notification {
     z-index: -1; 
-    background-color: #D07906;
+    background-color: #D50808;
     margin-left: -14px;
     border-radius: 10px;
     width: 10%;
