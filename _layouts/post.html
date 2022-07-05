@@ -16,7 +16,7 @@ layout: base
       <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
         <article>
           <nav class="mb-3">
-            <a href="{{site.url}}" class="hover:text-black">Início</a>
+            <a href="{{site.url}}" class="text-dark">Mundo Animal</a>
             <span class="mx-1">/</span> 
             <span>data</span>
             <span class="mx-1">/</span>
@@ -26,16 +26,17 @@ layout: base
             <h1 id="recipe-title">
               Title
             </h1>
-            <img src="{{ 'assets/images/teste-blog.jpg' | relative_url }}" class="w-100" alt="batata">
           </header>
           {{ content }}
         </article>
       </div>
     </div>
-    {%- include blog.html -%}
   </div>
 </div>
+{%- include blog.html -%}
 {%- include fourth.html -%}
+{%- include faq.html -%}
 {%- include sixth.html -%}
 {%- include footer.html -%}
 {%- include modal.md -%}
+{%- include icons.html -%}
