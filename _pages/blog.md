@@ -18,6 +18,9 @@ permalink: /post
         <img src="assets/images/whats.png" class="px-1 hover-icon">
       </a>
       <a href="{{ '#' | relative_url }}">
+        <img src="assets/images/telegram.png" class="px-1 hover-icon">
+      </a>
+      <a href="{{ '#' | relative_url }}">
         <img src="assets/images/facebook.png" class="px-1 hover-icon">
       </a>
       <a href="{{ '#' | relative_url }}">
