@@ -4,39 +4,12 @@ permalink: /post
 ---
 
 <section class="content-layout">
-  <div class="row mb-5 pb-5">
-    <div class="col-md-3">
-      <h2 class="font-weight-bold">
-        Ingredientes
-      </h2>
-      <span>
-        Subtítulo 1
-      </span>
-      <ul class="my-0 pl-3">
-        <li>
-          <p>
-            a
-          </p>
-        </li>
-      </ul>
-    </div>
-    <div class="list-blog col-md-9">
-      <h2 class="font-weight-bold mb-3">
-        Modo de preparo
-      </h2>
-      <span class="ml-5">
-        Subtítulo 1
-      </span>
-      <ul class="my-0 pl-3">
-        <li>
-          <p>
-            a
-          </p>
-        </li>
-      </ul>
-    </div>  
+  <div class="row mb-4 pb-5 mx-2">
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </p>
   </div>
-  <div class="d-flex mt-4">
+  <div class="d-flex mt-2">
     <span class="text-center mt-1">
       Compartilhe:
     </span>
