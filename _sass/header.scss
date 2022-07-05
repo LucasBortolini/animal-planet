@@ -14,14 +14,6 @@
     width: 38px;
   }
 
-  .hover-icon {
-    &:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-    } 
-  }
-
   .header-line {
     min-height: 96px;
     width: 100%;

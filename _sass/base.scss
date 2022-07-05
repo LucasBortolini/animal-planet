@@ -104,6 +104,14 @@ input[type=number] {
   margin: 0 auto;
 }
 
+.hover-icon {
+  &:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  } 
+}
+
 .cards {
   max-width: 974px;
   padding-bottom: 2px;
