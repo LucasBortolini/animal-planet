@@ -34,7 +34,7 @@
           </div>
         </div>
         <p class="text-modal-curiosities">
-          cite alguma fonte de onde você tirou a informação
+          cite as fontes de onde você tirou a informação, separando-as por vírgula
         </p>
       </div>
     </form>
